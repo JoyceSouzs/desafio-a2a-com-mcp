@@ -1,0 +1,12 @@
+[project]
+name = "servidor-mcp"
+version = "1.0.0"
+description = "Servidor MCP da Central de Salas (Hill Valley Tech)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.3.0",
+    "uvicorn==0.34.0",
+]
+
+[tool.uv]
+package = false
